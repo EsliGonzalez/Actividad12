@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+                                        <link rel ="stylesheet" href ="css/bootstrap.min.css"/>
+        <link rel ="stylesheet" type="text/css" href ="index.css"/> 
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script type="text/javascript">
+        function conexion(){
+            if(navigator.network.connection.type == Connection.NONE){
+                alert("No tienes conexion a internet");
+                }
+                else if (navigator.network.connection.type == Connection.WIFI){
+                alert("Estas conectado a Wi-Fi"); 
+                }
+                else {
+                    alert("Estas conectado por tu compañia telefonica");
+                }
+            }
+
+        </script>
+        </head>
+<head>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <title>Actividad 8 - Esli Gonzalez</title>
+    </head>
+
+    <body style = "background-color: #A9562D">
+
+        	<div class ="container" align = "center">
+            <br> <br>
+                         <button onclick = "conexion()"> Alerta conexion </button>
+        	<br> <br>
+        	<br> <br><br>
+
+        	<h1> Conexion a Internet </h1>
+
+
+            <button type='button' class='btn btn-default btn-lg'> <a href= "index.html"> <font color = "#000000"> Volver </font></a></button>
+        	 </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+body{
+	background-color: #1BE1BB;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+header{
+	background-color: #73C6B6;
+	position: center;
+	
+}
+.conteiner{
+	position: center;
+}
+.contenedor{
+	position: center;
+}
+button{
+	font-size : 15px;
+	padding: 8px 14px 9px;
+	color: black;
+}
+
+body, h1 { 
+margin:0; 
+padding:0;
+}
+html, body {
+	height: 100%;
+	text-align: center;
+}
+
+footer{
+	display: inline-block;
+	color: white;
+	padding-bottom: 16px;
+	padding-top: 14px;
+	width: 100%;
+	color: white;
+	background-color: #000000;
+}
